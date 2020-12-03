@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+            .linear{
+                width: 200px;
+                height: 200px;
+                border: 1px solid red;
+                float: left;
+            }
+            /* 线性渐变 */
+            .left{
+                                         /*    目的方向    初始颜色  结束颜色 */
+                background: linear-gradient(to right , yellow , green);
+            }
+            .left_top{
+                                            /* 结束在右下角   初始颜色  结束颜色 */
+                background: linear-gradient(to right bottom , yellow , green);
+            }
+
+        </style>
+
+    </head>
+
+
+    <body>
+        <div class="linear left">
+
+        </div>
+
+        <div class="linear left_top">
+
+        </div>
+    </body>
+
+</html>

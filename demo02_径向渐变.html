@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            .linear{
+                width: 200px;
+                height: 200px;
+                border: 1px solid red;
+                float: left;
+            }
+            /* 径向渐变 */
+            .left{
+                                                    /* 从中心点向外发散 发散的形状为圆形 到达最近的角落  颜色从黄色 变为 绿色 */
+                background: -webkit-radial-gradient(center,circle closest-corner ,yellow , green);
+               
+            }
+            .left_top{
+                                                /* 从中心点向外发散 发散的形状为椭圆 到达最近的角落  颜色从黄色 变为 绿色 */
+               background: -webkit-radial-gradient(center, ellipse farthest-corner , yellow , green);
+            }
+
+        </style>
+
+    </head>
+
+
+    <body>
+        <div class="linear left">
+
+        </div>
+
+        <div class="linear left_top">
+
+        </div>
+    </body>
+
+</html>
